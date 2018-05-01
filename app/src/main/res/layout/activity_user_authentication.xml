@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgroundfive"
+    tools:context="net.a6te.lazycoder.savejourney.UserAuthentication">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:src="@drawable/profle"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:orientation="vertical"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/UserNameLLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/UserNameLET"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter User Name"
+                    android:textColorHint="#f2efef"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/UserPassLLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                >
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/UserPassLET"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter User Password"
+                    android:textColorHint="#f2efef"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/LoginBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:onClick="logIn"
+                android:textAllCaps="false"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f6f9f6"
+                android:text="If you Don't have Account On SaveJourney please"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up "
+                android:gravity="right"
+                android:textColor="#bf1212"
+                android:onClick="signUp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

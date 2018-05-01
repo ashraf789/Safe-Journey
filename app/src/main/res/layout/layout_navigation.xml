@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#434242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/safe_journey"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textColor="#999696"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enjoy Your Journey"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/single_line"/>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navEmergencyRl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/emergency"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img3"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emergency Help"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navMedicalHelpRl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img6"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/emergencymedical"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img6"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical Help"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/navTravelAndTourRl"
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/travel"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Travel And Tourism"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/navTicketRl"
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img7"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ticket"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img7"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ticket"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.3dp"
+        android:background="@drawable/single_line"/>
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:paddingLeft="10dp"
+            android:background="@drawable/nav_option_background"
+            android:id="@+id/navFeedbackRl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/img4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/navicon3"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/img4"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/safeJourneyUrlRl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="#3c4673"
+            >
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SafeJourney.com"
+                android:textColor="#ffffff"
+                />
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/navicon5"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

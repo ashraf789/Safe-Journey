@@ -1,0 +1,36 @@
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="net.a6te.lazycoder.savejourney.fragment.FragmentMedicalHelp">
+
+        <Button
+            android:id="@+id/medicalEmergencyBtn"
+            android:layout_centerInParent="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/circle_button_emergency"
+            android:text="Medical\nHelp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#1a2be9"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Only Click When Medical Emergency"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            />
+
+
+
+    </RelativeLayout>
+
+</layout>

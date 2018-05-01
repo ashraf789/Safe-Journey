@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item xmlns:android="http://schemas.android.com/apk/res/android">
+        <shape>
+            <size android:height="20dp"></size>
+            <stroke android:color="#868da5"
+                android:dashGap="@dimen/fab_margin"
+                android:width="4dp"/>
+
+            <solid android:color="#ffffff"></solid>
+        </shape>
+
+
+    </item>
+
+</selector>
